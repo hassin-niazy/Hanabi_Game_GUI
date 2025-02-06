@@ -10,7 +10,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="427dp"
+        android:layout_gravity="center_vertical"
+
         android:orientation="horizontal">
 
         <LinearLayout
@@ -22,7 +24,7 @@
 
         <LinearLayout
             android:layout_width="739dp"
-            android:layout_height="95dp"
+            android:layout_height="87dp"
             android:layout_gravity="bottom"
             android:orientation="horizontal">
 
@@ -31,7 +33,9 @@
         <LinearLayout
             android:layout_width="266dp"
             android:layout_height="match_parent"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+        </LinearLayout>
 
 
     </LinearLayout>
