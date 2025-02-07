@@ -31,6 +31,26 @@
             android:background="#FF999999"
             android:orientation="horizontal">
 
+            <Button
+                android:id="@+id/giveHintButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Give Hint" />
+
+            <Button
+                android:id="@+id/playCardButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Play Card" />
+
+            <Button
+                android:id="@+id/discardButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Discard Card" />
         </LinearLayout>
 
         <LinearLayout
